@@ -1,0 +1,130 @@
+
+.stepThree{
+    padding: 2rem 0rem;
+    margin-left: 0rem !important;
+    margin-right: 0rem !important;
+    // .ant-card-hoverable:hover{
+    //     background-color: deepskyblue;
+    // }
+    
+    .ambCards {
+        .innerCard{
+            .ant-card-body{
+                padding-bottom: 3px !important;
+            }
+        }
+        .ant-card{
+            -webkit-box-shadow: 0 2px 8px rgba(0, 0, 0, 0.09);
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.09);
+            border-color: rgba(0, 0, 0, 0.09);
+        }
+        .featureTxt{
+            padding-top: 0.5rem;
+            // p{
+            //     text-align: justify;
+            // }
+        }
+        .ambSelected {
+            border: #277AFF 0.2rem solid;
+            
+            .ant-card-head-title{
+                color:#277AFF;
+                font-size: 16px;
+            }
+            p{
+                color:#277AFF;
+                // font-weight: bold;
+            }
+        }
+    }
+    .Addons{
+        .addonRow{
+            margin-left: 1rem !important;
+            margin-right: 1rem !important;
+            margin-bottom: 3rem !important;
+            margin-top: 1rem;
+        }
+        .addCard{
+            margin-bottom:0.8rem;
+        }
+        
+        .ant-card-body{
+            padding: 5px 0px 0px 0px !important;
+        }
+        .ant-card{
+            -webkit-box-shadow: 0 2px 8px rgba(0, 0, 0, 0.09) !important;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.09) !important;
+            border-color: rgba(0, 0, 0, 0.09) !important;
+            margin-top: 7% !important;
+        }
+        .addonSelected{
+            border:skyblue 0.2rem solid;
+            p{
+                color:#277AFF;
+            }
+            background-color: deepskyblue;
+        }
+    }
+    
+}
+@media screen 
+  and (min-device-width: 1280px) 
+  and (max-device-width: 1600px) 
+  and (-webkit-min-device-pixel-ratio: 1) { 
+    .stepThree{
+        .ant-card-head-title{
+            font-size: 1.4rem !important;
+            padding: 0.8rem 0rem !important;
+        }
+        .ant-card-head{
+            min-height: 36px !important;
+        }
+        .ambCards {
+            .ant-card-body {
+                padding: 1rem 2rem;
+            }
+            .innerCard .ant-card-body {
+                padding-bottom: 0px !important;
+            }
+            .ant-card-type-inner .ant-card-body {
+                padding: 6px 35px;
+            }
+        }
+        .Addons{
+            .addonRow{
+                margin-left: 0rem !important;
+                margin-right: 0rem !important;
+                margin-bottom: 1rem !important;
+                margin-top: 1rem;
+        }
+            .ant-card-body {
+                padding: 0px !important;
+            }
+            .addCard{
+                margin-top: 0% !important;
+                margin-bottom: 2% !important;
+            }
+        }
+    }
+}
+@media (max-width: $screen-md-min)
+  {
+    .addCard{
+        margin-top: 0% !important;
+        margin-bottom: 2% !important;
+        padding: 10px!important;
+    }
+    // .stepThree .ambSelected.ant-card-hoverable:hover,.stepThree .ambSelected.ant-card-hoverable{
+    //     background-color: deepskyblue!important;
+    // }
+    .ant-card-hoverable:hover{
+        background:none!important;
+    }
+    .addonSelected.ant-card-hoverable:hover{
+        border:skyblue 0.2rem solid!important;
+        p{
+            color:#277AFF!important;
+        }
+        background-color: deepskyblue!important;
+    }
+  }

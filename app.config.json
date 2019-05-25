@@ -1,0 +1,10 @@
+{
+  apps : [
+    {
+      name      : "Ambulance Booking App",
+      script    : "npm",
+      interpreter: "none",
+      args: "webpack-dev-server --port 8000"
+    }
+  ]
+}

@@ -1,0 +1,256 @@
+
+.Main{
+  @media screen 
+  and (min-device-width: 1280px) 
+  and (max-device-width: 1600px) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+    .Splash {
+      background-image: url(/images/BookPage2.png) !important;
+      overflow: hidden !important;
+    }
+    .stepsHeader{
+      padding-top: 3rem !important;
+    }
+  }
+  .Splash{
+    height: 100%;
+    width: 100%;
+    top:0;
+    position: absolute;
+    background-color: #ffffff;
+    z-index: 100000;
+    // overflow: hidden;
+    //padding: 1rem;
+    // display: block;
+    background-image: url(/images/BookPage.png);
+    background-repeat: no-repeat;
+    background-position: center; 
+    // position: relative;;
+    .branding{
+      padding-top: 0px;
+    }
+
+    .logoStyle{
+      margin-top: 13rem;
+    }
+    .h2Text{
+      font-size: 9.2rem;
+      margin-bottom: -1.3rem;
+      margin-top: 5.2rem;
+      margin-left: 1.5rem;
+    }
+    .h1Text{
+      font-size: 12rem;
+      word-spacing: 0.5rem;
+      letter-spacing: 0.2rem;
+      font-weight: 800;
+      margin-bottom: 2rem;
+    }
+    .btnStartGreen{
+      width: 33rem;
+      height: 9rem;
+      background-color: #66CC77;
+      color: #ffffff;
+      font-size: 3rem;
+      font-weight: 600;
+      border-radius: 1rem;
+      padding: 10px 0 1rem 0;
+    }
+    .btnStartBlue{
+      width: 25rem;
+      height: 6rem;
+      background-color: #0060A2;
+      color: #ffffff;
+      font-size: 1.8rem;
+      font-weight: 600;
+      border-radius: 1rem;
+      padding:10px 0 1rem 0;
+    }
+    .ant-divider, .ant-divider-vertical{
+      margin: 0px 25px;
+      display: block;
+      height: 20rem;
+      // top: 1rem; 
+    }
+    .firstDivider{
+      margin-top: 25rem;
+      margin-bottom: 1rem;
+    }
+    .secDivider{
+      margin-top:1rem;
+    }
+    .or{
+      padding: 1rem;
+      border: 2px solid red;
+      border-radius:50%;
+      font-size: 1.6rem;
+      background-color: #ffffff;
+    }
+    .shortForm{
+      padding-top: 27rem;
+      .FHeading{
+        font-size: 50px;
+        font-weight: bold;
+        letter-spacing: 3px;
+        color: #cc3333;
+        margin-bottom: 12px;
+      }
+      .ant-alert-with-description{
+        width: 95%;
+      }
+      .ant-alert-message{
+        padding-left: 1rem;
+      }
+      .ant-alert-description{
+        padding-left: 1rem;
+        color: #5CC41A;
+      }
+      .input{
+        height: 6rem;
+        width: 45rem;
+        font-size: 2.2rem;
+        -webkit-appearance: none; 
+        margin: 0; 
+      }
+      .sFbtn{
+        margin-left: 2rem;
+        background: rgb(102, 204, 119);
+        color: rgb(255, 255, 255);
+        width: 80px;
+        height: 80px
+      }
+      .dFbtn{
+        margin-left: 2rem;
+        background: rgb(156, 172, 158);
+        color: rgb(255, 255, 255);
+        width: 80px;
+        height: 80px
+      }
+      .anticon{
+        font-size: 4.2rem
+      }
+    }
+  }
+  .hideSplash{
+    display: none;
+
+  }
+  
+  
+  .ant-btn-circle-outline.ant-btn-lg {
+    width: 60px !important;
+    padding: 0 !important;
+    font-size: 33px !important;
+    border-radius: 50% !important;
+    height: 60px !important;
+    margin-left: 2rem !important;
+    background-color: #66CC77 !important;
+}
+  .stepsHeader{
+    padding: 3rem;
+  }
+  
+  .fWBtn{
+    width: 100%;
+    margin-bottom: 1rem;
+    height: 50px;
+  }
+  .fwbs1{
+    position: absolute;
+    top:  -8rem;
+    width: 90%;
+    height: 5rem;
+    left: 6%;
+    right: 5%;
+  }
+  .fWPBtn{
+    left: 10%;
+    right: 10%;
+    width: 80%;
+    margin-bottom: 1rem;
+    height: 5rem;
+  }
+  .hwb{
+    top:  -8rem;
+    width: 45%;
+    height: 5rem;
+    left: 6%;
+    right: 5%;
+    
+  }
+  
+}
+
+.ant-calendar{
+  width: 150% !important;
+}
+.ant-calendar-selected-day .ant-calendar-date{
+  font-size: 1.8rem !important;
+}
+
+.rc-time-picker{
+  display: block!important;
+}
+.rc-time-picker-panel {
+  width: 45rem !important;
+}
+.rc-time-picker-panel-input-wrap{
+  padding: 0.6rem 0.6rem 0 0.6rem !important;
+}
+.rc-time-picker-panel-input{
+  margin-left: 100px !important;
+  font-size: 16px !important;
+  width: auto !important;
+}
+.rc-time-picker-panel-inner{
+  line-height: 4.5 !important;
+}
+.rc-time-picker-panel-select {
+  font-size: 1.8rem !important;
+  width: 10rem !important;
+  padding: 2rem !important;
+}
+.rc-time-picker-panel-select li{
+  padding-bottom: 1.8rem !important;
+}
+.pac-container {
+  background-color: #fff!important;
+  z-index: 1000 !important;
+  border-radius: 2px !important;
+  font-size: 11px !important;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, .3) !important;
+  -moz-box-sizing: border-box !important;
+  -webkit-box-sizing: border-box !important;
+  box-sizing: border-box !important;
+  overflow: hidden !important;
+  //width: 350px!important;
+}
+.pac-item {
+  cursor: pointer !important;
+  padding: 0 4px!important;
+  text-overflow: ellipsis !important;
+  overflow: hidden !important;
+  white-space: nowrap !important;
+  line-height: 50px !important;
+  vertical-align: middle !important;
+  text-align: left !important;
+  border-top: 1px solid #e6e6e6 !important;
+  color: #999 !important;
+}
+.pac-icon {
+  width: 15px !important;
+  height: 20px !important;
+  margin-right: 7px !important;
+  margin-top: 15px !important;
+  display: inline-block !important;
+  vertical-align: top !important;
+  background-image: url(https://maps.gstatic.com/mapfiles/api-3/images/autocomplete-icons.png) !important;
+  background-size: 34px !important;
+}
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+input[type="number"] {
+  -moz-appearance: textfield;
+}

@@ -1,0 +1,109 @@
+.stepOne{
+  @media screen 
+  and (min-device-width: 1280px) 
+  and (max-device-width: 1600px) 
+  and (-webkit-min-device-pixel-ratio: 1) { 
+    .PhInpt {
+      padding-bottom: 1rem !important;
+    }
+    .datePicker{
+      padding-bottom: 1rem !important;
+    }
+    .ant-input-affix-wrapper .ant-input-prefix, .ant-input-affix-wrapper .ant-input-suffix{
+      top: 42% !important;
+    }
+  }
+    padding: 1rem;
+    input{
+      height:6rem;
+    }
+    button{
+      height: 3rem;
+      width: 100%;
+    }
+    label{
+      font-size: 1.8rem;
+      font-weight: bold;
+    }
+    .PhInpt{
+      padding-bottom: 3rem;
+    }
+    .datePicker{
+      width: 100%;
+      padding-bottom: 3rem;
+    }
+    .ant-input-prefix{
+      top:34%;
+    }
+    .formBorder{
+      border: 2px #364051 solid;
+      border-radius: 15px;
+      mso-border-shadow: yes;
+      padding: 4rem 1rem 7rem 1rem;
+    }
+    .h2TextS1{
+      font-size: 4rem;
+      letter-spacing: 0rem;
+      margin-top: -2rem;
+      line-height: 6rem;
+      //position: absolute;
+      top: 284px;
+    }
+    .h1TextS1{
+      font-size: 10rem;
+      font-weight: 800;
+      margin: 0rem;
+      padding-top: 7rem;
+      color: #2b2b2b;
+      //position: absolute;
+      top: -49px;
+    }
+    .bgPlus1{
+      position: absolute;
+      left: -21rem;
+      top: 8rem;
+    }
+    .bgPlus2{
+      position: absolute;
+      left: 22rem;
+      top: -8rem;
+    }
+    .bgPlus3{
+      position: absolute;
+      left: 50rem;
+      top: 7rem;
+    }
+    .ant-calendar-picker-icon {
+      position: absolute;
+      width: 14px;
+      height: 12px;
+      right: 12px;
+      top: 32%;
+    }
+    .ant-input-affix-wrapper .ant-input-prefix, .ant-input-affix-wrapper .ant-input-suffix{
+      top:33%
+    }
+    .ant-divider, .ant-divider-vertical{
+      margin: 0px 25px;
+      display: block;
+      height: 20rem;
+      // top: 1rem; 
+    }
+    .firstDivider{
+      margin-top: 4rem;
+      margin-bottom: 1rem;
+      margin-left: 20px;
+    }
+    .secDivider{
+      margin-top:1rem;
+      margin-left: 20px;
+    }
+    .or{
+      padding: 1rem;
+      border: 2px solid red;
+      border-radius:50%;
+      font-size: 1.6rem;
+      background-color: #ffffff;
+    }
+    
+  }
