@@ -19,7 +19,7 @@
     "is-wsl": "^1.1.0",
     "live-server": "^1.2.0",
     "moment": "^2.22.1",
-    "node-sass": "^4.7.2",
+    "node-sass": "^7.0.0",
     "normalize.css": "7.0.0",
     "npm": "^6.1.0",
     "rc-time-picker": "^3.3.1",
